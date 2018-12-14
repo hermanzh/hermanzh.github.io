@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/style.css?v=6dd1cfcdbc4b6677be10965e3a97cb16767f2e9e">
+
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Long’s Blog | Good good study, and day day up.</title>
+<meta name="generator" content="Jekyll v3.7.4" />
+<meta property="og:title" content="Long’s Blog" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Good good study, and day day up." />
+<meta property="og:description" content="Good good study, and day day up." />
+<link rel="canonical" href="http://localhost:4000/blog/2018/12/14/the-way-to-github-pages.html" />
+<meta property="og:url" content="http://localhost:4000/blog/2018/12/14/the-way-to-github-pages.html" />
+<meta property="og:site_name" content="Long’s Blog" />
+<script type="application/ld+json">
+{"description":"Good good study, and day day up.","@type":"WebPage","url":"http://localhost:4000/blog/2018/12/14/the-way-to-github-pages.html","headline":"Long’s Blog","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Long's Blog</h1>
+        <h2>Good good study, and day day up.</h2>
+
+        <section id="downloads">
+          
+          <a href="http://github.com/hermanzh/hermanzh.github.io" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <p><a href="../../../../">Home</a></p>
+
+<h1 id="今天我的博客开通了">今天我的博客开通了</h1>
+
+<h1 id="todo-排版太乱下次好好改改"><code class="highlighter-rouge">TODO： 排版太乱，下次好好改改</code></h1>
+
+<h2 id="等了好久终于下定决心开博想了好久还是决定用github-pages但是苦于自己前端太弱还是找个一个现有的主题弄了好久才成功记录一下">等了好久，终于下定决心开博，想了好久，还是决定用Github Pages，但是苦于自己前端太弱，还是找个一个现有的主题，弄了好久才成功，记录一下：</h2>
+
+<h3 id="创建一个博客">创建一个博客</h3>
+<ol>
+  <li>创建一个repo，名称为：your_name.github.io</li>
+  <li>创建index.html，就是你的博客主页</li>
+  <li>访问 https://your_name.github.io</li>
+</ol>
+
+<h3 id="添加jekyll-主题到你的博客">添加Jekyll 主题到你的博客：</h3>
+<ol>
+  <li>在repo中创建一个文件_config.yml，并添加内容
+theme: jekyll-theme-[you_choosed_theme]
+可用主题 https://pages.github.com/themes/</li>
+  <li>创建Gemfile 并添加
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>source 'https://gems.ruby-china.com/'
+gem "github-pages", group: :jekyll_plugins
+</code></pre></div>    </div>
+  </li>
+  <li>创建assets/css/style.scss, 并拷贝
+```
+—
+—</li>
+</ol>
+
+<p>@import “jekyll-theme-hacker”;
+```</p>
+<ol>
+  <li>进入你的repo目录，命令行 执行 bundle install, 正确安装gem</li>
+  <li>bundle exec jekyll serve</li>
+  <li>拷贝https://github.com/pages-themes/THEME_NAME/blob/master/_layouts/default.html
+到你的目录_layouts/default.html</li>
+  <li>把index替换成index.md，使用markdown改写</li>
+</ol>
+
+      </section>
+    </div>
+
+    
+  </body>
+</html>
