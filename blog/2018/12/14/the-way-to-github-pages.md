@@ -31,4 +31,4 @@ gem "github-pages", group: :jekyll_plugins
 5. bundle exec jekyll serve
 6. 拷贝https://github.com/pages-themes/THEME_NAME/blob/master/_layouts/default.html（**`THEME_NAME`用你选择的主题名替换**）
 到你的目录_layouts/default.html
-7. 把index替换成index.md，使用markdown改写
+7. 把index.html替换成index.md，使用markdown改写
