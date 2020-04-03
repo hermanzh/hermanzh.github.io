@@ -2,6 +2,12 @@
 layout: default
 ---
 ***
+## [Plan](./blog/2020/04/03/Plan)
+
+## Plan
+
+2020-04-03
+***
 ## [Github Pages 创建博客方法](./blog/2018/12/14/the-way-to-github-pages)
 
 ## 今天我的博客开通了。
@@ -21,5 +27,12 @@ layout: default
 ## git本地仓库上传更新到github
 
 2020-02-08
+
+****
+## [Linux mail](./blog/2020/04/03/linux_mail_usage)
+
+## usage of Linux mail
+
+2020-04-03
 
 ****
