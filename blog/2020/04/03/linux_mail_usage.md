@@ -1,5 +1,7 @@
-#Linux mail
+[Home](../../../../)
 
+
+# Linux mail
 
 mail 命令是 Linux 下一个非常轻巧的交互式的命令行邮件客户端，基于 Berkeley Mail 8.1，提供 MIME、MAP、POP3、SMTP 和 S/MIME 等扩展
 
@@ -7,7 +9,7 @@ mail 默认是调用本机 MTA 发送邮件的，这意味着需要在本机上�
 
 通过修改配置文件，可以达到不使用 sendmail 而用外部 smtp 服务器发送邮件的目的。
 
-###命令介绍
+### 命令介绍
 命令名称 mail/mailx
 
 * 基本语法
@@ -16,7 +18,7 @@ mail 默认是调用本机 MTA 发送邮件的，这意味着需要在本机上�
 * 功能描述
 发送和接收网络邮件
 
-###命令选项
+### 命令选项
 
 | option | usage |
 | :----   |  :---- |
